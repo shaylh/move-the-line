@@ -72,6 +72,7 @@ nav > a {
 article {
     background-color: #ffffff;
     padding: 20px;
+    line-height: 1.875em;
 }
 
 h1 {
@@ -156,7 +157,7 @@ h1 {
     overflow: hidden;
 }
 
-.street-view {
+.panorama {
     margin-top: 10px;
     width: 100%;
 }
@@ -211,7 +212,7 @@ h1 {
         margin-bottom: 10px;
     }
 
-    .street-view {
+    .panorama {
         height: 200px;
     }
 }
@@ -300,7 +301,7 @@ h1 {
         margin: 10px;
     }
 
-    .street-view {
+    .panorama {
         height: 400px;
     }
 }
