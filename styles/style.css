@@ -141,9 +141,15 @@ h1 {
     border: 1px solid #DDDDDD;
     display: inline-block;
     box-sizing: border-box;
-    height: 100px;
     color: #222222;
     padding: 0 10px;
+    height: 80px;
+    line-height: 1em;
+}
+
+.press-link > .source-image {
+    float: right;
+    height: 78px;
 }
 
 .press-link > .title {
