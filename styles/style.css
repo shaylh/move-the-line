@@ -41,7 +41,7 @@ nav > a {
 
 .num {
     margin-right: 1.3em;
-    display:list-item;
+    display: list-item;
     list-style-type: decimal;
 }
 
@@ -55,6 +55,7 @@ nav > a {
     font-size: 1.25em;
     text-align: center;
     padding: 5px;
+    clear: both;
 }
 
 .help-us {
@@ -75,7 +76,8 @@ article {
     line-height: 1.875em;
 }
 
-h1 {
+h1,
+h2 {
     color: #ff0000;
 }
 
@@ -221,6 +223,16 @@ h1 {
     .panorama {
         height: 200px;
     }
+
+    .text-with-image > .image {
+        display: block;
+        text-align: center;
+    }
+
+    .text-with-image > .image > img {
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -309,5 +321,13 @@ h1 {
 
     .panorama {
         height: 400px;
+    }
+
+    .text-with-image > .image {
+        float: left;
+    }
+
+    .text-with-image > .image > img {
+        width: 250px;
     }
 }
